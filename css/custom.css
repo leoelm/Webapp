@@ -1,0 +1,61 @@
+/*-------------IDs-------------*/
+
+#abodeHeader {
+    font-size: 75px;
+}
+
+#images {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#imagesBody {
+    padding: 5%;
+}
+
+#main {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+#quotee {
+    padding-top: 15px;
+}
+
+/*-------------ClASSES-------------*/
+.column .active {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.column img {
+    -webkit-filter: grayscale(1);
+    filter: gray;
+}
+
+.column img:hover{
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.column .subtitle{
+    text-align: right;
+}
+
+.columns .is-three-quarters {
+    padding-left: 150px;
+}
+
+.primary-color {
+    color: #67B43D;
+}
+
+.quote {
+    font-size: 24px;
+    font-family: "Nunito";
+    text-align: left;
+}

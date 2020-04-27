@@ -6,6 +6,12 @@
     padding-top:0;
 }
 
+#headerStuff {
+    background-color: rgb(103,180,61, 0.5);
+    height: 500px;
+    margin-top: -100px;
+}
+
 #images {
     margin-bottom: 5%;
     margin-top: 5%;
@@ -34,6 +40,26 @@ footer div img {
     /* padding-left: 5%;
     padding-right: 5%; */
     padding: 5%
+}
+
+#videoDiv2 {
+    position:absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+#titleColumn {
+    position: absolute;
+    right: 0;
+    min-height: 500px;
+    max-height: 500px
+}
+
+video {
+    min-width: 100%;
+    max-height: 500px;
+    object-fit: fill;
 }
 
 @keyframes indicator {

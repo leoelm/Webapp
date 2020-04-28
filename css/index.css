@@ -3,28 +3,6 @@
     padding-top:0;
 }
 
-
-
-@media (max-device-width: 767px) {
-    /* video {
-        display: none;
-    } */
-    .is-three-quarters {
-        display: flex;
-        justify-content: center;
-    }
-    #videoDiv2 {
-        display: none;
-    }
-    #hederStuff {
-        margin-top:0;
-    }
-
-    #headerStuff img{
-        display: none;
-    }
-}
-
 #headerStuff {
     background-color: rgb(103,180,61, 0.5);
     height: 500px;
@@ -75,6 +53,26 @@ footer div img {
     right: 0;
     min-height: 500px;
     max-height: 500px
+}
+
+@media (max-device-width: 767px) {
+    video {
+        display: none;
+    }
+    .is-three-quarters {
+        display: flex;
+        justify-content: center;
+    }
+    #videoDiv2 {
+        display: none;
+    }
+    #hederStuff {
+        margin-top:0;
+    }
+
+    #headerStuff img{
+        display: none;
+    }
 }
 
 @keyframes indicator {

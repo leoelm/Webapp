@@ -3,6 +3,10 @@
     padding-top:0;
 }
 
+body {
+    max-width: 100%;
+}
+
 /* #headerStuff {
     background-color: rgb(103,180,61, 0.5);
     height: 500px;
@@ -31,9 +35,9 @@ footer div img {
     align-items: center;
 }
 
-.hero-has-padding {
+/* .hero-has-padding {
     padding: 5%
-}
+} */
 
 #titleColumn {
     position: absolute;

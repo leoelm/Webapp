@@ -6,8 +6,11 @@
 
 
 @media (max-device-width: 767px) {
-    video {
+    .videoDiv2 {
         display: none;
+    }
+    #hederStuff {
+        margin-top:0;
     }
 }
 

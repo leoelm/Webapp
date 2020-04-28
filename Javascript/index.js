@@ -29,11 +29,9 @@ window.onload = function() {
 
     StartTextAnimation(0);
 
-    if(this.screen.width <= 767){
-        var menu = document.getElementById("button");
-        menu.onclick = function() {
-            menu.classList.toggle("is-acitve");
-        }
+    var menu = document.getElementById("button");
+    menu.onclick = function() {
+        menu.classList.toggle("is-acitve");
     }
 }
 

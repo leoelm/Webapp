@@ -12,6 +12,10 @@
     #hederStuff {
         margin-top:0;
     }
+
+    #headerStuff img{
+        display: none;
+    }
 }
 
 #headerStuff {

@@ -6,7 +6,14 @@
 
 
 @media (max-device-width: 767px) {
-    .videoDiv2 {
+    /* video {
+        display: none;
+    } */
+    .is-three-quarters {
+        display: flex;
+        justify-content: center;
+    }
+    #videoDiv2 {
         display: none;
     }
     #hederStuff {

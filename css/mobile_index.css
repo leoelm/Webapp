@@ -11,10 +11,6 @@ body {
     max-width: 100%;
 }
 
-/* #headerStuff {
-    background-color: rgb(103,180,61, 0.5);
-    height: 500px;
-} */
 #images {
     margin-bottom: 5%;
     margin-top: 5%;
@@ -38,10 +34,6 @@ footer div img {
     display: flex;
     align-items: center;
 }
-
-/* .hero-has-padding {
-    padding: 5%
-} */
 
 #titleColumn {
     position: absolute;

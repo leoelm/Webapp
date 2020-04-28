@@ -5,7 +5,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
     video {
         display: none;
     }

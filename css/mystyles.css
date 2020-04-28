@@ -577,14 +577,14 @@ a.has-text-link:hover, a.has-text-link:focus {
 a.has-text-info:hover, a.has-text-info:focus {
   color: rgba(230, 230, 230, 0) !important; }
 
-@media (max-device-width: 767px) {
-  .has-background-info {
-    background-color: white;
-  }
-}
-
 .has-background-info {
   background-color: rgba(255, 255, 255, 0) !important; }
+
+  @media (max-device-width: 767px) {
+    .has-background-info {
+      background-color: white;
+    }
+  }
 
 .has-text-success {
   color: #67B43D !important; }

@@ -5,29 +5,32 @@
 
 
 
-@media (min-width: 750px) {
-    #headerStuff {
-        background-color: rgb(103,180,61, 0.5);
-        height: 500px;
-        margin-top: -100px;
-    }
-    #images {
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-    #videoDiv2 {
-        position:absolute;
-        width: 100%;
-        top: 0;
-        z-index: -1;
-    }
+@media (max-width: 767px) {
     video {
-        min-width: 100%;
-        max-height: 500px;
-        object-fit: fill;
+        display: none;
     }
 }
 
+#headerStuff {
+    background-color: rgb(103,180,61, 0.5);
+    height: 500px;
+    margin-top: -100px;
+}
+#images {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#videoDiv2 {
+    position:absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+video {
+    min-width: 100%;
+    max-height: 500px;
+    object-fit: fill;
+}
 
 
 footer div img {

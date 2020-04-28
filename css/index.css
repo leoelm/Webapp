@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .section {
     margin-top:0;
     padding-top:0;

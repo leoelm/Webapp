@@ -75,6 +75,10 @@ footer div img {
     }
 }
 
+footer .container .columns .column{
+    text-align: center;
+}
+
 @keyframes indicator {
     50% {
         border-color: transparent;

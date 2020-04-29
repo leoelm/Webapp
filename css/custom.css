@@ -1,7 +1,11 @@
 /*-------------IDs-------------*/
 
+#top {
+    max-height: 35vh;
+}
+
 #abodeHeader {
-    font-size: 75px;
+    font-size: 3rem;
 }
 
 #images {
@@ -9,7 +13,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    max-height: 50%;
+    max-height: 50vh;
 }
 
 #imagesBody {
@@ -25,7 +29,7 @@
 }
 
 #quotee {
-    padding-top: 15px;
+    padding-top: 1rem;
 }
 
 /*-------------ClASSES-------------*/
@@ -52,12 +56,16 @@
     padding-left: 150px;
 }
 
+.face {
+    max-height: 60%;
+}
+
 .primary-color {
     color: #67B43D;
 }
 
 .quote {
-    font-size: 24px;
+    font-size: 1rem;
     font-family: "Nunito";
     text-align: left;
 }

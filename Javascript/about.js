@@ -42,8 +42,11 @@ window.onload = function() {
         quoteContainer.removeAttribute("data-aos-duration");
         quoteContainer.setAttribute("data-aos", "zoom-in");
         quoteContainer.setAttribute("data-aos-duration", 2000);
+        
+        if(active) {
+            active.classList.remove("active");
+        }
 
-        active.classList.remove("active");
         activeText.innerHTML = person.quote;
         activeQuotee.innerHTML = person.title;
         person.element.classList.add("active");

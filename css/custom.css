@@ -1,4 +1,20 @@
 /*-------------IDs-------------*/
+html {
+    --custom-font: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: var(--custom-font);
+}
+
+.subtitle {
+    font-family: var(--custom-font);
+}
+
+.title {
+    font-family: var(--custom-font);
+}
 
 #abodeHeader {
     font-size: 75px;

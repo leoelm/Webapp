@@ -72,8 +72,9 @@ p {
     padding-left: 150px;
 }
 
-.face {
-    /* max-height: 60%; */
+.is-vertical-center {
+    display: flex;
+    align-items: center;
 }
 
 .primary-color {

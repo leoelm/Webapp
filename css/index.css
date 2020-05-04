@@ -3,6 +3,18 @@ html {
     scroll-behavior: smooth;
 }
 
+.how_icons {
+    font-size: 45px;
+    color: #67B43D;
+    margin-bottom: 3rem;
+    margin-top: 1rem; 
+}
+
+.link {
+    color: #67B43D;
+    text-decoration: underline;
+}
+
 .section {
     margin-top:0;
     padding-top:0;

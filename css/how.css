@@ -1,5 +1,18 @@
 html {
+    --custom-font: 'Comfortaa', cursive;
     scroll-behavior: smooth;
+}
+
+p {
+    font-family: var(--custom-font);
+}
+
+.subtitle {
+    font-family: var(--custom-font);
+}
+
+.title {
+    font-family: var(--custom-font);
 }
 
 .is-vertical-center {
@@ -11,7 +24,15 @@ html {
     padding-top: 10%;
     padding-bottom: 10%;
 }
-.icon {
+
+.how_icons {
+    font-size: 45px;
+    color: #67B43D;
+    margin-bottom: 3rem;
+    margin-top: 1rem; 
+}
+
+#bouncy {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;

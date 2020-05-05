@@ -12,7 +12,7 @@ window.onload = function() {
         {
             element: document.getElementById("Harry"),
             title: "- Harry Panter. CEO.",
-            quote: "I’m Harry, I’ve always been passionate about making a difference and causing a change and felt Business is the best medium for that. This is my most current and exciting venture however I have had past experience with founding and running the Panter Business Group; a parent company of 3 successful businesses. I cannot wait to see what the future holds for abode.",
+            quote: "I’m Harry, I’ve always been passionate about making a difference and causing a change and felt Business is the best medium for that. This is my most current and exciting venture however I have had past experience with founding and running startups, based in the software, retail & media industries. I cannot wait to see what the future holds for abode.",
         },
         {
             element: document.getElementById("Joe"),

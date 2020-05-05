@@ -1,10 +1,39 @@
 html {
+    --custom-font: 'Comfortaa', cursive;
     scroll-behavior: smooth;
+}
+
+.how_icons {
+    font-size: 45px;
+    color: #67B43D;
+    margin-bottom: 3rem;
+    margin-top: 1rem; 
+}
+
+.link {
+    color: #67B43D;
+    text-decoration: underline;
 }
 
 .section {
     margin-top:0;
     padding-top:0;
+}
+
+p {
+    font-family: var(--custom-font);
+}
+
+.subtitle {
+    font-family: var(--custom-font);
+}
+
+.title {
+    font-family: var(--custom-font);
+}
+
+#title {
+    font-family: var(--custom-font);
 }
 
 #headerStuff {
@@ -27,7 +56,6 @@ video {
     max-height: 500px;
     object-fit: fill;
 }
-
 
 footer div img {
     width: 150px;

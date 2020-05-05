@@ -14,6 +14,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/mystyles.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="./Javascript/index.js"></script>
   </head>
@@ -30,6 +31,9 @@
         <a class="navbar-item" href="./pages/about.html" style="color: white;">
             About Us
         </a>
+        <!-- <a class="navbar-item" href="./pages/competition.html" style="color: white;">
+            #rentfree
+        </a> -->
     </nav>
 
 <div id="videoDiv2">
@@ -39,22 +43,28 @@
         </video>
     </div>
 </div>
-
     <section id="headerStuff" class="hero is-large estateAgents">
             <div id="titleStuff" class="columns hero-has-padding" style="margin-top: 75px">
-                <div class="column is-vertical-center is-three-quarters">
-                    <h1 id="title" class="title is-1" style="color: white;">
+                <div class="column is-three-quarters">
+                    <h1 id="title" class="title is-2" style="color: white;">
                         We are Abode
                     </h1>
+                    <h1 class="title is-2" >
+                        We are changing the prop tech industry.
+                    </h1>
                 </div>
-                <div class="column">
+                <div class="column is-vertical-center">
                     <img src="images/Logo_white.png">
                 </div>
             </div>
         </div>
         <img src="images/tiltLefttoRight_transparent.png" style="margin-top:-100px">
     </section>
+
     <section id="students" class="section has-background-white">
+        <!-- <div class="container">
+            <h1 class="title is-size-1">What we do...</h1>
+        </div> -->
         <div class="container" style="padding-top: 100px;">
             <h1 class="title is-1">
                 As a Student...
@@ -71,12 +81,47 @@
                 </div>
             </div>
             <div data-aos="zoom-in" class="container">
-                <h1 class="subtitle is-3">..use our app to find your perfect accommodation. <a href="./pages/how.html" class="is-link">Find out how.</a></h1>
+                <div class="tile is-ancestor">
+                <div class="tile is-vertical is-12">
+                  <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child box is-white has-text-centered">
+                            <span class="icon how_icons">
+                                <i class="fas fa-sign-in-alt"></i>
+                            </span>
+                          <p class="title">Sign Up.</p>
+                          <p class="subtitle">Use your details to quickly create an account with us.</p>
+                          <a class="link" href="./pages/how.html#signup">Learn More</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child box is-white has-text-centered">
+                            <span class="icon how_icons">
+                                <i class="fas fa-hand-paper"></i>
+                            </span>
+                          <p class="title">Swipe.</p>
+                          <p class="subtitle">Find your favourite house. Just by swiping.</p>
+                          <a class="link" href="./pages/how.html#swipe">Learn More</a>
+                        </article>
+                      </div>
+                      <div class="tile is-parent is-vertical">
+                        <article class="tile is-child box is-white has-text-centered">
+                            <span class="icon how_icons">
+                                <i class="far fa-address-book"></i>
+                            </span>
+                          <p class="title">Book.</p>
+                          <p class="subtitle">Found your fit? Just book right through the app.</p>
+                          <a class="link" href="./pages/how.html#book">Learn More</a>
+                        </article>
+                      </div>
+                  </div>
+                </div>
             </div>
+            <h1 class="subtitle is-3">..use our app to find your perfect accommodation. <a href="./pages/how.html" class="is-link">Find out how.</a></h1>
+
         </div>
     </section>
     <img id="image" src="images/tiltRigthtoLeft.jpg">
-
     <section class="section has-background-light estateAgents">
         <div data-aos="zoom-out" >
         <div class="container">
@@ -103,14 +148,12 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-one-quarter"></div>
-                <div class="column is-half">
-                    <input class="input" type="text" placeholder="Name" style="margin-bottom:10px"/>
-                    <input class="input" type="text" placeholder="Email" style="margin-bottom:10px"/>
-                    <input class="input" type="text" placeholder="Subject" style="margin-bottom:10px"/>
-                    <input class="input is-large" type="text" placeholder="Your Query" style="margin-bottom:10px"/> 
-                    <button class="button is-primary is-fullwidth">Send</button>
+                <div class="column is-half" style="display: inline-flex;">
+                    <input class="input" type="text" placeholder="Name" style="height: 7vh; border-top-left-radius: 3vh; border-bottom-left-radius: 3vh; font-size: 2rem;">
+                    <input class="input" type="text" placeholder="Email" style="height: 7vh; font-size: 2rem;">
+                    <button class="button is-primary" style="height: 7vh; border-top-right-radius: 3vh; border-bottom-right-radius: 3vh; font-size: 2rem;">Join</button>
                 </div>
-                <div class="column is-one-quarter"></div>
+                <div class="column"></div>
             </div>
         </div>
         <div class="content">

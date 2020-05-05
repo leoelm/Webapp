@@ -87,25 +87,9 @@ footer div img {
     max-height: 500px
 }
 
-/* @media (max-device-width: 767px) {
-    video {
-        display: none;
-    }
-    .is-three-quarters {
-        display: flex;
-        justify-content: center;
-    }
-    #videoDiv2 {
-        display: none;
-    }
-    #hederStuff {
-        margin-top:0;
-    }
-
-    #headerStuff img{
-        display: none;
-    }
-} */
+@media (max-device-width: 767px) {
+    
+}
 
 footer .container .columns .column{
     text-align: center;

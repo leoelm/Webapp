@@ -3,6 +3,10 @@ html {
     scroll-behavior: smooth;
 }
 
+::placeholder {
+    color: white;
+}
+
 .how_icons {
     font-size: 45px;
     color: #67B43D;
@@ -88,7 +92,7 @@ footer div img {
 }
 
 @media (max-device-width: 767px) {
-    
+
 }
 
 footer .container .columns .column{

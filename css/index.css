@@ -87,7 +87,7 @@ footer div img {
     max-height: 500px
 }
 
-@media (max-device-width: 767px) {
+/* @media (max-device-width: 767px) {
     video {
         display: none;
     }
@@ -105,7 +105,7 @@ footer div img {
     #headerStuff img{
         display: none;
     }
-}
+} */
 
 footer .container .columns .column{
     text-align: center;

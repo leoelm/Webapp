@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require('path');
+const fs = require("fs");
 const app = express();
 const port = 3000;
 
@@ -12,6 +13,11 @@ app.get('/', function(req, res) {
 })
 
 app.post('/waitlist', (req, res) => {
+    fs.appendFile(".test.txt", `${req.body.name}: ${req.body.email} \n`, function(err) {
+        if(err) {
+            return console.log(err);
+        }
+    })
     console.log(
         req.body.name,
         req.body.email

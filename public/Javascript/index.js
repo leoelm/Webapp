@@ -4,23 +4,32 @@ window.onload = function() {
     join.onclick = () => {
         var name = this.document.getElementById("name1").value;
         var email = this.document.getElementById("email1").value;
-        this.fetch("/waitlist", {
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            method: "POST",
-            body: JSON.stringify(
-                {
-                    name: name,
-                    email: email
-                }
-            )
-        }).then(res => {
-            return res.json();
-        }).then(data => {
-            this.console.log(data)
-        })
+
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+            this.fetch("/waitlist", {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                method: "POST",
+                body: JSON.stringify(
+                    {
+                        name: name,
+                        email: email
+                    }
+                )
+            }).then(res => {
+                return res.json();
+            }).then(data => {
+                this.console.log(data)
+                this.document.getElementById("name1").value = "";
+                this.document.getElementById("email1").value = "";
+            })
+        } else {
+            this.document.getElementById("email1").value = "";
+            this.document.getElementById("email1").placeholder = "Input valid email";
+            this.document.getElementById("email1").style.borderColor="red";
+        }
     }
 
     var dataText = ["We simplify. We streamline. We cheapen.", "The process for students.", "The process for real estate agents.", "We are Abode."];
